@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fdfdff;
+  --foreground: #1a1b26;
+  --primary: #4f46e5;
+  --secondary: #f0f2ff;
+  --muted: #f8fafc;
+  --muted-foreground: #475569;
+  --card: #ffffff;
+  --border: #e0e7ff;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-card border border-border rounded-xl shadow-sm;
+  }
+
+  .text-gradient {
+    @apply font-bold text-foreground;
+  }
+
+  .nav-link {
+    @apply text-muted-foreground hover:text-primary transition-colors duration-200 text-sm font-medium;
+  }
+
+  .section-container {
+    @apply max-w-5xl mx-auto px-6 py-20;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 9999px;
+}
+
+/* Simplified Background */
+.bg-grid {
+  background-image: radial-gradient(#4f46e520 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+.glow {
+  display: none;
+}

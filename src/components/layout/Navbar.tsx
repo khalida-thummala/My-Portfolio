@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail, FileText } from 'lucide-react';
 
 const Navbar = () => {
+    const baseUrl = import.meta.env.BASE_URL;
     return (
         <motion.nav
             initial={{ y: -100 }}
@@ -28,7 +29,7 @@ const Navbar = () => {
                         <Mail size={18} />
                     </a>
                     <a
-                        href="Thummala%20Khalida.pdf"
+                        href={`${baseUrl}Thummala%20Khalida.pdf`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-primary text-white text-xs font-bold px-4 py-2 rounded-full hover:bg-primary/90 transition-all flex items-center gap-2"

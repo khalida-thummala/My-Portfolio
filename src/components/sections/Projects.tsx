@@ -3,10 +3,11 @@ import { motion } from 'framer-motion';
 import { ExternalLink, Github, ShieldCheck, Zap, Lock } from 'lucide-react';
 
 const Projects = () => {
+    const baseUrl = import.meta.env.BASE_URL;
     const projects = [
         {
             title: "MemoryLane",
-            image: "memorylane.png",
+            image: `${baseUrl}memorylane.png`,
             description: "A full-stack web application for secure media documentation and personal storytelling. Built with a focus on secure authentication, handling 100+ records via Cloudinary.",
             tech: ["React (Vite)", "Node.js", "Express.js", "Supabase", "Cloudinary"],
             github: "https://github.com/khalida-thummala/MemoryLane_Personal",
@@ -15,7 +16,7 @@ const Projects = () => {
         },
         {
             title: "Paste-Box",
-            image: "pastebox.png",
+            image: `${baseUrl}pastebox.png`,
             description: "A secure MERN-stack file-sharing application with JWT authentication. Engineered for efficient handling of 200+ files and centralized Cloudinary storage.",
             tech: ["React.js", "Node.js", "MongoDB", "Cloudinary", "JWT"],
             github: "https://github.com/khalida-thummala/",
@@ -24,7 +25,7 @@ const Projects = () => {
         },
         {
             title: "Time-Track AI",
-            image: "timetrack.png",
+            image: `${baseUrl}timetrack.png`,
             description: "A productivity-focused time-tracking dashboard managing 50+ activities. Streamlining activity management with real-time Firebase-powered data visualization.",
             tech: ["React (Vite)", "Tailwind CSS", "Firebase", "Recharts"],
             github: "https://github.com/khalida-thummala/timetrack-ai",

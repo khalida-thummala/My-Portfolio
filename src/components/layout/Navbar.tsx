@@ -32,6 +32,7 @@ const Navbar = () => {
                         href={`${baseUrl}Thummala%20Khalida.pdf`}
                         target="_blank"
                         rel="noopener noreferrer"
+                        download
                         className="bg-primary text-white text-xs font-bold px-4 py-2 rounded-full hover:bg-primary/90 transition-all flex items-center gap-2"
                     >
                         <FileText size={14} />

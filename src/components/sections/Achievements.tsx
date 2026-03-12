@@ -36,8 +36,8 @@ const Achievements = () => {
         },
         {
             title: "Masai School Mentee",
-            issuer: "Masai School",
-            description: "Selected as a mentee at Masai School Education for specialized software development training.",
+            issuer: "Masai School (Empower Her)",
+            description: "Selected as an Empower Her Scholar for specialized software development training and mentorship.",
             icon: <Award className="text-purple-500" />
         }
     ];

@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 const Skills = () => {
     const skills = [
         { category: "Languages", items: ["Java", "Python", "C", "JavaScript"] },
-        { category: "Web", items: ["React JS", "Node JS", "Express JS", "Tailwind CSS"] },
-        { category: "Cloud & DB", items: ["AWS Cloud", "MySQL", "PostgreSQL", "Firebase", "Supabase"] },
-        { category: "Tools", items: ["Git", "Postman", "Agile", "JWT", "REST APIs"] }
+        { category: "Web", items: ["React JS", "Node JS", "Express JS", "Tailwind CSS", "Jest"] },
+        { category: "Cloud & DB", items: ["AWS Cloud", "MySQL", "PostgreSQL", "MongoDB Atlas", "Supabase", "Firebase"] },
+        { category: "Tools", items: ["Git", "Postman", "Agile", "JWT", "REST APIs", "Render", "Vercel"] }
     ];
 
     return (

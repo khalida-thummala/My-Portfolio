@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ExternalLink, Github, ShieldCheck, Zap } from 'lucide-react';
+import { ExternalLink, Github, ShieldCheck, Zap, Lock } from 'lucide-react';
 
 const Projects = () => {
     const projects = [
@@ -12,6 +12,15 @@ const Projects = () => {
             github: "https://github.com/khalida-thummala/MemoryLane_Personal",
             live: "https://memorylane-frontend.netlify.app/",
             icon: <ShieldCheck className="text-primary" size={20} />
+        },
+        {
+            title: "Paste-Box",
+            image: "/pastebox.png",
+            description: "A secure file-sharing application featuring JWT-based authentication and cloud storage. Engineered for efficient data handling and seamless user experience.",
+            tech: ["React.js", "Node.js", "MongoDB", "Cloudinary", "JWT"],
+            github: "https://github.com/khalida-thummala/",
+            live: "https://paste-box.vercel.app/",
+            icon: <Lock className="text-primary" size={20} />
         },
         {
             title: "Time-Track AI",

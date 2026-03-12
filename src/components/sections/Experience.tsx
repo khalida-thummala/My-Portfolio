@@ -10,9 +10,9 @@ const Experience = () => {
             period: "May 2025 – July 2025",
             location: "Bengaluru, India",
             impact: [
-                "Direct ESGS-Triton integration, bypassing Paragon and reducing system dependencies.",
-                "Implemented secure authentication and data handling for Triton request flows.",
-                "Improved end-to-end testing efficiency and system reliability for internal teams."
+                "Built direct integration between ESGS and Triton, removing dependency on Paragon and simplifying testing workflows.",
+                "Reverse-engineered request routing and implemented secure authentication and validation logic in Java.",
+                "Improved end-to-end testing reliability and worked in Agile sprints to deliver high-performance backend solutions."
             ]
         }
     ];

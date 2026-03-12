@@ -11,7 +11,7 @@ const Projects = () => {
             description: "A full-stack web application for secure media documentation and personal storytelling. Built with a focus on secure authentication, handling 100+ records via Cloudinary.",
             tech: ["React (Vite)", "Node.js", "Express.js", "Supabase", "Cloudinary"],
             github: "https://github.com/khalida-thummala/MemoryLane_Personal",
-            live: "https://memorylane-frontend.netlify.app/",
+            live: "https://memory-lane-personal-phi.vercel.app/",
             icon: <ShieldCheck className="text-primary" size={20} />
         },
         {
@@ -20,7 +20,6 @@ const Projects = () => {
             description: "A secure MERN-stack file-sharing application with JWT authentication. Engineered for efficient handling of 200+ files and centralized Cloudinary storage.",
             tech: ["React.js", "Node.js", "MongoDB", "Cloudinary", "JWT"],
             github: "https://github.com/khalida-thummala/",
-            live: "https://paste-box.vercel.app/",
             icon: <Lock className="text-primary" size={20} />
         },
         {

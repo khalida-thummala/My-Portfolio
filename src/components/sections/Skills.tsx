@@ -5,7 +5,7 @@ const Skills = () => {
     const skills = [
         { category: "Languages", items: ["Java", "Python", "C", "JavaScript"] },
         { category: "Web", items: ["React JS", "Node JS", "Express JS", "Tailwind CSS", "Jest"] },
-        { category: "Cloud & DB", items: ["AWS Cloud", "MySQL", "PostgreSQL", "MongoDB Atlas", "Supabase", "Firebase"] },
+        { category: "Cloud & DB", items: ["AWS Basics", "MySQL", "PostgreSQL", "MongoDB Atlas", "Supabase", "Firebase"] },
         { category: "Tools", items: ["Git", "Postman", "Agile", "JWT", "REST APIs", "Render", "Vercel"] }
     ];
 

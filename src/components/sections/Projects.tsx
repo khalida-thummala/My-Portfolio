@@ -6,8 +6,8 @@ const Projects = () => {
     const projects = [
         {
             title: "MemoryLane",
-            image: "/memorylane.png",
-            description: "A full-stack web application for secure media documentation and personal storytelling. Built with a focus on secure authentication and efficient media management.",
+            image: "memorylane.png",
+            description: "A full-stack web application for secure media documentation and personal storytelling. Built with a focus on secure authentication, handling 100+ records via Cloudinary.",
             tech: ["React (Vite)", "Node.js", "Express.js", "Supabase", "Cloudinary"],
             github: "https://github.com/khalida-thummala/MemoryLane_Personal",
             live: "https://memorylane-frontend.netlify.app/",
@@ -15,8 +15,8 @@ const Projects = () => {
         },
         {
             title: "Paste-Box",
-            image: "/pastebox.png",
-            description: "A secure file-sharing application featuring JWT-based authentication and cloud storage. Engineered for efficient data handling and seamless user experience.",
+            image: "pastebox.png",
+            description: "A secure MERN-stack file-sharing application with JWT authentication. Engineered for efficient handling of 200+ files and centralized Cloudinary storage.",
             tech: ["React.js", "Node.js", "MongoDB", "Cloudinary", "JWT"],
             github: "https://github.com/khalida-thummala/",
             live: "https://paste-box.vercel.app/",
@@ -24,8 +24,8 @@ const Projects = () => {
         },
         {
             title: "Time-Track AI",
-            image: "/timetrack.png",
-            description: "A productivity-focused time-tracking and analytics dashboard. Streamlining activity management with real-time data visualization.",
+            image: "timetrack.png",
+            description: "A productivity-focused time-tracking dashboard managing 50+ activities. Streamlining activity management with real-time Firebase-powered data visualization.",
             tech: ["React (Vite)", "Tailwind CSS", "Firebase", "Recharts"],
             github: "https://github.com/khalida-thummala/timetrack-ai",
             live: "https://khalida-thummala.github.io/timetrack-ai/",

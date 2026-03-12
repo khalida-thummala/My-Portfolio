@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Award, Star, Trophy, Cpu, GraduationCap, Briefcase } from 'lucide-react';
+import { Award, Star, Trophy, Cpu, GraduationCap, Briefcase, Zap, Globe } from 'lucide-react';
 
 const Achievements = () => {
     const data = [
@@ -9,6 +9,18 @@ const Achievements = () => {
             issuer: "Amazon (Bengaluru)",
             description: "Completed intensive 3-month internship (Summer 2025) working on ESGS-Triton integration and distributed systems.",
             icon: <Briefcase className="text-primary" />
+        },
+        {
+            title: "AI Prompt Engineering",
+            issuer: "Naipunyam Program (Govt Initiative)",
+            description: "Certified in advanced prompt engineering techniques and AI-augmented development through the state skill program.",
+            icon: <Zap className="text-primary" />
+        },
+        {
+            title: "Global Leadership Program",
+            issuer: "FFE & Rishihood University | 2025",
+            description: "Completed Global Leadership Program on Systems Thinking, focusing on complex problem-solving and ethical leadership.",
+            icon: <Globe className="text-blue-400" />
         },
         {
             title: "Amazon Scholarship Recipient",

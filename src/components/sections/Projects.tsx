@@ -6,30 +6,22 @@ const Projects = () => {
     const baseUrl = import.meta.env.BASE_URL;
     const projects = [
         {
-            title: "MemoryLane",
+            title: "ArogyaScribe – AI Clinical Documentation",
+            image: `${baseUrl}arogyascribe.png`,
+            description: "Built an AI-powered clinical documentation platform that automates SOAP note generation from doctor-patient conversations. Developed a RAG pipeline using LangChain and PostgreSQL for semantic search across medical records. Integrated Speech-to-Text APIs and GPT-4 models to transcribe consultations and generate structured medical summaries.",
+            tech: ["React.js", "FastAPI", "PostgreSQL", "LangChain", "GPT-4"],
+            github: "https://github.com/khalida-thummala/ArogyaScribe",
+            live: "https://mediscribe-kohl.vercel.app/",
+            icon: <Zap className="text-primary" size={20} />
+        },
+        {
+            title: "MemoryLane – Digital Memory Platform",
             image: `${baseUrl}memorylane.png`,
-            description: "A full-stack web application for secure media documentation and personal storytelling. Built with a focus on secure authentication, handling 100+ records via Cloudinary.",
-            tech: ["React (Vite)", "Node.js", "Express.js", "Supabase", "Cloudinary"],
+            description: "Developed a full-stack social memory platform enabling users to capture, organize, and share personal moments securely. Integrated Cloudinary media uploads and AI-powered tagging using Google Gemini. Built collaborative albums, friend/follower workflows, and privacy-controlled sharing features.",
+            tech: ["React.js", "Node.js", "Supabase", "Cloudinary", "Gemini API"],
             github: "https://github.com/khalida-thummala/MemoryLane_Personal",
             live: "https://memory-lane-personal-phi.vercel.app/",
             icon: <ShieldCheck className="text-primary" size={20} />
-        },
-        {
-            title: "Paste-Box",
-            image: `${baseUrl}pastebox.png`,
-            description: "A secure MERN-stack file-sharing application with JWT authentication. Engineered for efficient handling of 200+ files and centralized Cloudinary storage.",
-            tech: ["React.js", "Node.js", "MongoDB", "Cloudinary", "JWT"],
-            github: "https://github.com/khalida-thummala/",
-            icon: <Lock className="text-primary" size={20} />
-        },
-        {
-            title: "Time-Track AI",
-            image: `${baseUrl}timetrack.png`,
-            description: "A productivity-focused time-tracking dashboard managing 50+ activities. Streamlining activity management with real-time Firebase-powered data visualization.",
-            tech: ["React (Vite)", "Tailwind CSS", "Firebase", "Recharts"],
-            github: "https://github.com/khalida-thummala/timetrack-ai",
-            live: "https://khalida-thummala.github.io/timetrack-ai/",
-            icon: <Zap className="text-primary" size={20} />
         }
     ];
 

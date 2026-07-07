@@ -3,10 +3,11 @@ import { motion } from 'framer-motion';
 
 const Skills = () => {
     const skills = [
-        { category: "Languages", items: ["Java", "Python", "C", "JavaScript"] },
-        { category: "Web", items: ["React JS", "Node JS", "Express JS", "Tailwind CSS", "Jest"] },
-        { category: "Cloud & DB", items: ["AWS Basics", "MySQL", "PostgreSQL", "MongoDB Atlas", "Supabase", "Firebase"] },
-        { category: "Tools", items: ["Git", "Postman", "Agile", "JWT", "REST APIs", "Render", "Vercel"] }
+        { category: "Programming Languages", items: ["C", "Java", "Basic Python"] },
+        { category: "Web Development", items: ["HTML", "CSS", "JavaScript", "React.js", "Node.js"] },
+        { category: "Databases & Frameworks", items: ["MySQL", "PostgreSQL", "FastAPI"] },
+        { category: "Cloud & Tools", items: ["Git", "GitHub", "VS Code", "AWS", "Distributed Systems", "Microservices"] },
+        { category: "Soft Skills", items: ["Creative Thinking", "Leadership", "Communication", "Team Collaboration"] }
     ];
 
     return (

@@ -19,7 +19,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex items-center gap-4">
-                    <a href="https://github.com/khalida-thummala/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                    <a href="https://github.com/khalida-thummala" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
                         <Github size={18} />
                     </a>
                     <a href="https://www.linkedin.com/in/khalida-thummala/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">

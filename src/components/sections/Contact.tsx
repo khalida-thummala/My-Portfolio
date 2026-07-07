@@ -33,7 +33,7 @@ const Contact = () => {
                                 <a href="https://www.linkedin.com/in/khalida-thummala/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-full bg-secondary border border-border text-foreground hover:text-primary hover:bg-primary/10 transition-all hover:-translate-y-1">
                                     <Linkedin size={24} />
                                 </a>
-                                <a href="https://github.com/khalida-thummala/" target="_blank" rel="noopener noreferrer" className="p-4 rounded-full bg-secondary border border-border text-foreground hover:text-primary hover:bg-primary/10 transition-all hover:-translate-y-1">
+                                <a href="https://github.com/khalida-thummala" target="_blank" rel="noopener noreferrer" className="p-4 rounded-full bg-secondary border border-border text-foreground hover:text-primary hover:bg-primary/10 transition-all hover:-translate-y-1">
                                     <Github size={24} />
                                 </a>
                             </div>

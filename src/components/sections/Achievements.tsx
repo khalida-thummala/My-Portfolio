@@ -5,52 +5,58 @@ import { Award, Star, Trophy, Cpu, GraduationCap, Briefcase, Zap, Globe } from '
 const Achievements = () => {
     const data = [
         {
-            title: "Amazon SDE Intern",
-            issuer: "Amazon (Bengaluru)",
-            description: "Completed intensive 3-month internship (Summer 2025) working on ESGS-Triton integration and distributed systems.",
+            title: "J.P. Morgan Chase & Co. Certification",
+            issuer: "Forage | June 2026",
+            description: "Completed Software Engineering Job Simulation covering Kafka, H2 database, Project Setup, and REST API Integration.",
             icon: <Briefcase className="text-primary" />
         },
         {
-            title: "AI Prompt Engineering",
-            issuer: "Naipunyam Program (Govt Initiative)",
-            description: "Certified in advanced prompt engineering techniques and AI-augmented development through the state skill program.",
-            icon: <Zap className="text-primary" />
+            title: "IIT Kharagpur NPTEL Elite+Topper",
+            issuer: "NPTEL",
+            description: "Ranked in the Top 2% nationwide in Natural Language Processing (Score: 81%).",
+            icon: <Award className="text-purple-500" />
         },
         {
-            title: "Global Leadership Program",
-            issuer: "FFE & Rishihood University | 2025",
-            description: "Completed Global Leadership Program on Systems Thinking, focusing on complex problem-solving and ethical leadership.",
-            icon: <Globe className="text-blue-400" />
-        },
-        {
-            title: "Amazon Scholarship Recipient",
-            issuer: "Amazon (2023)",
-            description: "Awarded based on exceptional performance in the State Engineering Entrance Examination.",
+            title: "AFE-FFE Scholar & Amazon Scholarship",
+            issuer: "Amazon",
+            description: "Selected based on academic merit and leadership potential.",
             icon: <Trophy className="text-yellow-500" />
         },
         {
-            title: "AFE Bootcamp Certificate",
-            issuer: "Amazon Future Engineer",
-            description: "Completed intensive 10-month Java & DSA Program (2025) covering professional engineering best practices.",
-            icon: <Star className="text-blue-500" />
-        },
-        {
-            title: "Generative AI with AWS",
-            issuer: "Udacity (Accenture) | 2025",
-            description: "Validated expertise in foundational concepts of GenAI, AWS AI services, and real-world implementation.",
+            title: "Infosys Springboard Virtual Internship 7.0",
+            issuer: "Infosys",
+            description: "Selected for Virtual Internship in Artificial Intelligence Domain.",
             icon: <Cpu className="text-green-500" />
         },
         {
-            title: "FLY Scholar Program",
-            issuer: "Competitiveness Mindset Institute, USA",
-            description: "Certified in Leadership & Problem-Solving Program (2024), focusing on competitiveness mindset.",
+            title: "Global Leadership Program on Systems Thinking",
+            issuer: "Foundation for Excellence (FFE)",
+            description: "Completed Global Leadership Program focusing on systems thinking and complex problem-solving.",
+            icon: <Globe className="text-blue-400" />
+        },
+        {
+            title: "Amazon Future Engineer Bootcamp",
+            issuer: "Amazon | 2023",
+            description: "Specialization in Java & Data Structures.",
+            icon: <Star className="text-blue-500" />
+        },
+        {
+            title: "AWS Academy Graduate",
+            issuer: "Udacity",
+            description: "Introducing Generative AI with AWS.",
+            icon: <Zap className="text-primary" />
+        },
+        {
+            title: "AI Prompt Engineering Mastery",
+            issuer: "Naipunyam Program",
+            description: "Completed training on advanced prompt engineering techniques.",
             icon: <GraduationCap className="text-orange-500" />
         },
         {
-            title: "Masai School Mentee",
-            issuer: "Masai School (Empower Her)",
-            description: "Selected as an Empower Her Scholar for specialized software development training and mentorship.",
-            icon: <Award className="text-purple-500" />
+            title: "FLY Scholar Program Certification",
+            issuer: "Competitiveness Mindset Institute, USA",
+            description: "Awarded by the Competitiveness Mindset Institute.",
+            icon: <Award className="text-primary" />
         }
     ];
 

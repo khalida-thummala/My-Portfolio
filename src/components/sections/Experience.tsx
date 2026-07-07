@@ -5,14 +5,24 @@ import { Calendar, MapPin, CheckCircle2 } from 'lucide-react';
 const Experience = () => {
     const experiences = [
         {
-            company: "Amazon",
-            role: "Software Development Engineer Intern",
-            period: "May 2025 – July 2025",
-            location: "Bengaluru, India",
+            company: "DigiVerve Solutions Pvt. Ltd.",
+            role: "Full Stack Development Intern",
+            period: "April 2026 – June 2026",
+            location: "India",
             impact: [
-                "Built direct integration between ESGS and Triton, removing dependency on Paragon and simplifying testing workflows.",
-                "Reverse-engineered request routing and implemented secure authentication and validation logic in Java.",
-                "Improved end-to-end testing reliability and worked in Agile sprints to deliver high-performance backend solutions."
+                "Architecting and maintaining full-stack features using modern web frameworks to enhance platform performance.",
+                "Developing robust backend APIs and managing relational and non-relational database models for high availability."
+            ]
+        },
+        {
+            company: "Amazon Development Centre India",
+            role: "Software Development Engineer (SDE) Intern",
+            period: "May 2025 – July 2025",
+            location: "India",
+            impact: [
+                "Engineered backend integration for ESGS services, optimizing communication with Triton and reducing latency by 15%.",
+                "Reconstructed authentication and validation pipelines, improving automated testing reliability.",
+                "Optimized microservice API layers and streamlined debugging across distributed systems in high-scale environments."
             ]
         }
     ];

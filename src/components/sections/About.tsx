@@ -15,13 +15,13 @@ const About = () => {
 
                 <div className="space-y-6 text-muted-foreground leading-relaxed text-lg">
                     <p>
-                        Ambitious and results-oriented Software Engineering undergraduate with strong expertise in Java, Data Structures & Algorithms, and scalable backend development.
+                        Computer Science undergraduate with hands-on software development experience through an SDE internship at Amazon and full-stack development roles.
                     </p>
                     <p>
-                        Experienced in <span className="text-foreground font-medium underline decoration-primary underline-offset-4">REST API design and distributed systems</span> through my Amazon SDE internship. I demonstrate strong problem-solving, Agile collaboration, and system design skills to deliver reliable, high-performance software solutions.
+                        Proven expertise in building <span className="text-foreground font-medium underline decoration-primary underline-offset-4">full-stack platforms and AI-driven architectures</span>, including RAG pipelines and clinical documentation tools.
                     </p>
                     <p>
-                        Focused on building applications that are secure, efficient, and user-centric. Beyond my B.Tech, I am a <span className="text-foreground font-medium">Masai School Empower her Scholar</span>, continuously expanding my expertise in full-stack development.
+                        Highly skilled in designing scalable software solutions, optimizing system workflows, and applying generative AI and microservices practices to solve real-world engineering problems.
                     </p>
                 </div>
             </motion.div>

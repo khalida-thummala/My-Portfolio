@@ -29,7 +29,7 @@ const Navbar = () => {
                         <Mail size={18} />
                     </a>
                     <a
-                        href={`${baseUrl}Thummala__Khalida.pdf`}
+                        href={`${baseUrl}Thummala_Khalida.pdf`}
                         target="_blank"
                         rel="noopener noreferrer"
                         download
